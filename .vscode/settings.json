@@ -3,5 +3,6 @@
     "editor.fontSize": 16,
     "editor.cursorBlinking": "expand",
     "editor.fontWeight":null,
-    "editor.fontLigatures": true
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "'Fira Code','Courier New', monospace"
 }
