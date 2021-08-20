@@ -1,12 +1,65 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Noticias</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="/Cristian/Css/styleNoticias.css" />
+    <link href="" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+
+        <div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" >
+				<div class="tm-header">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12">
+							<img src="/Cristian/img/Logo.png" alt="Logo" class="tm-site-logo" /> 
+							<div class="tm-site-text-box">
+								<h1 class="tm-site-title">Noticias<h1>
+								<h6 class="tm-site-description">Noticias informaticas.</h6>	
+							</div>
+						</div>
+						<nav class="col-md-6 col-12 tm-nav">
+							<ul class="tm-nav-ul">
+								<li class="tm-nav-li"><a href="./index.html" class="tm-nav-link active">Inicio</a></li>
+                                <li class="tm-nav-li"><a href="./Sobre.html" class="tm-nav-link">Sobre</a></li>
+							
+                                <li class="tm-nav-li"><a href="./Noticias.html" class="tm-nav-link">Noticias</a></li>
+								<li class="tm-nav-li"><a href="./NuestroProducto.html" class="tm-nav-link">Nuestro Producto</a></li>
+                              
+                            </ul>
+						</nav>	
+					</div>
+				</div>
+			</div>
+		</div>
+
+    </div>
+
+    <footer class="tm-footer text-center">
+        <p>Copyright &copy; 2021  Cristian 
+        
+        | Design: <a rel="nofollow" href="https://Google.com">Google</a></p>
+    </footer>
+</div>
+<script src="/Cristian/Js/jquery.min.js"></script>
+<script src="/Cristian/Js/parallax.min.js"></script>
+<script>
+    $(document).ready(function(){
+        // Handle click on paging links
+        $('.tm-paging-link').click(function(e){
+            e.preventDefault();
+            
+            var page = $(this).text().toLowerCase();
+            $('.tm-gallery-page').addClass('hidden');
+            $('#tm-gallery-page-' + page).removeClass('hidden');
+            $('.tm-paging-link').removeClass('active');
+            $(this).addClass("active");
+        });
+    });
+</script>
+  </body>
 </html>
