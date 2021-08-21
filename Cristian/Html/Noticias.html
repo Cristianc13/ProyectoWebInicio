@@ -1,114 +1,345 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Noticias</title>
-    <link rel="stylesheet" href="/Cristian/Css/styleNoticias.css" />
-    <link href="" rel="stylesheet" />
-  </head>
-  <body>
-    <div class="container">
 
-        <div class="placeholder">
-			<div class="parallax-window" data-parallax="scroll" >
-				<div class="tm-header">
-					<div class="row tm-header-inner">
-						<div class="col-md-6 col-12">
-							<img src="/Cristian/img/Logo.png" alt="Logo" class="tm-site-logo" /> 
-							<div class="tm-site-text-box">
-								<h1 class="tm-site-title">Noticias<h1>
-								<h6 class="tm-site-description">Noticias informaticas.</h6>	
-							</div>
-						</div>
-						<nav class="col-md-6 col-12 tm-nav">
-							<ul class="tm-nav-ul">
-								<li class="tm-nav-li"><a href="./index.html" class="tm-nav-link active">Inicio</a></li>
-                                <li class="tm-nav-li"><a href="./Sobre.html" class="tm-nav-link">Sobre</a></li>
-							
-                                <li class="tm-nav-li"><a href="./Noticias.html" class="tm-nav-link">Noticias</a></li>
-								<li class="tm-nav-li"><a href="./NuestroProducto.html" class="tm-nav-link">Nuestro Producto</a></li>
-                              
-                            </ul>
-						</nav>	
-					</div>
-				</div>
-			</div>
-		</div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Noticias</title>
+  <link rel="stylesheet" href="/Cristian/Css/styleNoticias.css" />
+  <link href="/Cristian/Css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
-<main>
-    <header class="row tm-welcome-section">
+<body>
+
+  <div class="container">
+
+    <div class="placeholder">
+      <div class="parallax-window" data-parallax="scroll">
+        <div class="tm-header">
+          <div class="row tm-header-inner">
+            <div class="col-md-6 col-12">
+              <img src="/Cristian/img/Logo.png" alt="Logo" class="tm-site-logo" />
+              <div class="tm-site-text-box">
+                <h1 class="tm-site-title">Noticias<h1>
+                    <h6 class="tm-site-description">Noticias informaticas.</h6>
+              </div>
+            </div>
+            <nav class="col-md-6 col-12 tm-nav">
+              <ul class="tm-nav-ul">
+                <li class="tm-nav-li"><a href="./index.html" class="tm-nav-link active">Inicio</a></li>
+                <li class="tm-nav-li"><a href="./Sobre.html" class="tm-nav-link">Sobre</a></li>
+
+                <li class="tm-nav-li"><a href="./Noticias.html" class="tm-nav-link">Noticias</a></li>
+                <li class="tm-nav-li"><a href="./NuestroProducto.html" class="tm-nav-link">Nuestro Producto</a></li>
+
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <header class="row tm-welcome-section">
         <h2 class="col-12 text-center tm-section-title">Bienvenido a la pagina de noticias</h2>
-        <p class="col-12 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptatum ullam, debitis commodi magni soluta tenetur eveniet at deleniti sed veniam cupiditate tempora assumenda animi. Enim saepe odit tempora debitis.</p>
-    </header>
+        <p class="col-12 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptatum
+          ullam, debitis commodi magni soluta tenetur eveniet at deleniti sed veniam cupiditate tempora assumenda animi.
+          Enim saepe odit tempora debitis.</p>
+      </header>
 
-	<div class="tm-paging-links">
+      <div class="tm-paging-links">
         <nav>
-            <ul>
+          <li class="tm-paging-item"><a href="#" class="tm-paging-link active">Pizza</a></li>
+          <li class="tm-paging-item"><a href="#" class="tm-paging-link">Salad</a></li>
+          <li class="tm-paging-item"><a href="#" class="tm-paging-link">Noodle</a></li>
 
-                <li class="tm-paging-item"> <div class="svg-wrapper">
-                    <svg height="40" width="150" xmlns="https://www.google.com/">
-                      <rect id="shape" height="40" width="150" />
-                      <div id="text">
-                        <a href=""><span class="spot"></span>Celulares</a>
-                      </div>
-                    </svg>
-                  </div></li>
-                <li class="tm-paging-item"> <div class="svg-wrapper">
-                    <svg height="40" width="150" xmlns="https://www.google.com/">
-                      <rect id="shape" height="40" width="150" />
-                      <div id="text">
-                        <a href=""><span class="spot"></span>Pantallas</a>
-                      </div>
-                    </svg>
-                  </div></li>
-                <li class="tm-paging-item"> <div class="svg-wrapper">
-                    <svg height="40" width="150" xmlns="https://www.google.com/">
-                      <rect id="shape" height="40" width="150" />
-                      <div id="text">
-                        <a href=""><span class="spot"></span>Computadoras</a>
-                      </div>
-                    </svg>
-                  </div></li>
-            </ul>
         </nav>
-    </div>
+      </div>
 
-</main>
-
-
+    </main>
 
 
 
+    <!-- Gallery -->
+    <div class="row tm-gallery">
+      <!-- gallery page 1 -->
+      <div id="tm-gallery-page-pizza" class="tm-gallery-page">
+        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+          <figure>
+            <img src="/Cristian/img/forest2.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+            <figcaption>
+              <h4 class="tm-gallery-title">Fusce dictum finibus</h4>
+              <p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus
+                accumsan</p>
+              <p class="tm-gallery-price">$45 / $55</p>
+            </figcaption>
+          </figure>
+        </article>
+        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+          <figure>
+            <img src="/Cristian/img/forest2.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+            <figcaption>
+              <h4 class="tm-gallery-title">Aliquam sagittis</h4>
+              <p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus
+                accumsan</p>
+              <p class="tm-gallery-price">$65 / $70</p>
+            </figcaption>
+          </figure>
+        </article>
+        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+          <figure>
+            <img src="/Cristian/img/forest2.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+            <figcaption>
+              <h4 class="tm-gallery-title">Sed varius turpis</h4>
+              <p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus
+                accumsan</p>
+              <p class="tm-gallery-price">$30.50</p>
+            </figcaption>
+          </figure>
+        </article>
+        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+          <figure>
+            <img src="/Cristian/img/forest2.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+            <figcaption>
+              <h4 class="tm-gallery-title">Aliquam sagittis</h4>
+              <p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus
+                accumsan</p>
+              <p class="tm-gallery-price">$25.50</p>
+            </figcaption>
+          </figure>
+        </article>
+        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+          <figure>
+            <img src="/Cristian/img/forest2.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+            <figcaption>
+              <h4 class="tm-gallery-title">Maecenas eget justo</h4>
+              <p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus
+                accumsan</p>
+              <p class="tm-gallery-price">$80.25</p>
+            </figcaption>
+          </figure>
+        </article>
+        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+          <figure>
+            <img src="/Cristian/img/forest2.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+            <figcaption>
+              <h4 class="tm-gallery-title">Quisque et felis eros</h4>
+              <p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus
+                accumsan</p>
+              <p class="tm-gallery-price">$20 / $40 / $60</p>
+            </figcaption>
+          </figure>
+        </article>
+        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+          <figure>
+            <img src="/Cristian/img/forest2.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+            <figcaption>
+              <h4 class="tm-gallery-title">Sed ultricies dui</h4>
+              <p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus
+                accumsan</p>
+              <p class="tm-gallery-price">$94</p>
+            </figcaption>
+          </figure>
+        </article>
+        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+          <figure>
+            <img src="/Cristian/img/forest2.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+            <figcaption>
+              <h4 class="tm-gallery-title">Donec porta consequat</h4>
+              <p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus
+                accumsan</p>
+              <p class="tm-gallery-price">$15</p>
+            </figcaption>
+          </figure>
+        </article>
+      </div> <!-- gallery page 1 -->
+
+      <!-- gallery page 2 -->
+      <div id="tm-gallery-page-salad" class="tm-gallery-page hidden">
+        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+          <figure>
+            <img src="/Cristian/img/03.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+            <figcaption>
+              <h4 class="tm-gallery-title">Salad Menu One</h4>
+              <p class="tm-gallery-description">Proin eu velit egestas, viverra sapien eget, consequat nunc. Vestibulum
+                tristique</p>
+              <p class="tm-gallery-price">$25</p>
+            </figcaption>
+          </figure>
+        </article>
+        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+          <figure>
+            <img src="/Cristian/img/03.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+            <figcaption>
+              <h4 class="tm-gallery-title">Second Title Salad</h4>
+              <p class="tm-gallery-description">Proin eu velit egestas, viverra sapien eget, consequat nunc. Vestibulum
+                tristique</p>
+              <p class="tm-gallery-price">$30</p>
+            </figcaption>
+          </figure>
+        </article>
+        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+          <figure>
+            <img src="/Cristian/img/03.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+            <figcaption>
+              <h4 class="tm-gallery-title">Third Salad Item</h4>
+              <p class="tm-gallery-description">Proin eu velit egestas, viverra sapien eget, consequat nunc. Vestibulum
+                tristique</p>
+              <p class="tm-gallery-price">$45</p>
+            </figcaption>
+          </figure>
+        </article>
+        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+          <figure>
+            <img src="/Cristian/img/03.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+            <figcaption>
+              <h4 class="tm-gallery-title">Superior Salad</h4>
+              <p class="tm-gallery-description">Proin eu velit egestas, viverra sapien eget, consequat nunc. Vestibulum
+                tristique</p>
+              <p class="tm-gallery-price">$50</p>
+            </figcaption>
+          </figure>
+        </article>
+        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+          <figure>
+            <img src="/Cristian/img/03.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+            <figcaption>
+              <h4 class="tm-gallery-title">Sed ultricies dui</h4>
+              <p class="tm-gallery-description">Proin eu velit egestas, viverra sapien eget, consequat nunc. Vestibulum
+                tristique</p>
+              <p class="tm-gallery-price">$55 / $60</p>
+            </figcaption>
+          </figure>
+        </article>
+        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+          <figure>
+            <img src="/Cristian/img/03.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+            <figcaption>
+              <h4 class="tm-gallery-title">Maecenas eget justo</h4>
+              <p class="tm-gallery-description">Proin eu velit egestas, viverra sapien eget, consequat nunc. Vestibulum
+                tristique</p>
+              <p class="tm-gallery-price">$75</p>
+            </figcaption>
+          </figure>
+        </article>
+      </div> <!-- gallery page 2 -->
+
+      <!-- gallery page 3 -->
+      <div id="tm-gallery-page-noodle" class="tm-gallery-page hidden">
+        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+          <figure>
+            <img src="/Cristian/img/04.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+            <figcaption>
+              <h4 class="tm-gallery-title">Noodle One</h4>
+              <p class="tm-gallery-description">Orci varius natoque penatibus et magnis dis parturient montes, nascetur
+                ridiculus mus.</p>
+              <p class="tm-gallery-price">$12.50</p>
+            </figcaption>
+          </figure>
+        </article>
+        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+          <figure>
+            <img src="/Cristian/img/04.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+            <figcaption>
+              <h4 class="tm-gallery-title">Noodle Second</h4>
+              <p class="tm-gallery-description">Orci varius natoque penatibus et magnis dis parturient montes, nascetur
+                ridiculus mus.</p>
+              <p class="tm-gallery-price">$15.50</p>
+            </figcaption>
+          </figure>
+        </article>
+        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+          <figure>
+            <img src="/Cristian/img/04.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+            <figcaption>
+              <h4 class="tm-gallery-title">Third Soft Noodle</h4>
+              <p class="tm-gallery-description">Orci varius natoque penatibus et magnis dis parturient montes, nascetur
+                ridiculus mus.</p>
+              <p class="tm-gallery-price">$20.50</p>
+            </figcaption>
+          </figure>
+        </article>
+        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+          <figure>
+            <img src="/Cristian/img/04.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+            <figcaption>
+              <h4 class="tm-gallery-title">Aliquam sagittis</h4>
+              <p class="tm-gallery-description">Orci varius natoque penatibus et magnis dis parturient montes, nascetur
+                ridiculus mus.</p>
+              <p class="tm-gallery-price">$30.25</p>
+            </figcaption>
+          </figure>
+        </article>
+        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+          <figure>
+            <img src="/Cristian/img/04.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+            <figcaption>
+              <h4 class="tm-gallery-title">Maecenas eget justo</h4>
+              <p class="tm-gallery-description">Orci varius natoque penatibus et magnis dis parturient montes, nascetur
+                ridiculus mus.</p>
+              <p class="tm-gallery-price">$35.50</p>
+            </figcaption>
+          </figure>
+        </article>
+        <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+          <figure>
+            <img src="/Cristian/img/04.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+            <figcaption>
+              <h4 class="tm-gallery-title">Quisque et felis eros</h4>
+              <p class="tm-gallery-description">Orci varius natoque penatibus et magnis dis parturient montes, nascetur
+                ridiculus mus.</p>
+              <p class="tm-gallery-price">$40.50</p>
+            </figcaption>
+          </figure>
+        </article>
+
+      </div> <!-- gallery page 3 -->
+
+      <div class="container">
+        <footer>
+
+          <div class="footer-contenido">
+            <h3>
+              Codigo Cristian
+            </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aut temporibus quo nemo doloribus, ipsa
+              reprehenderit, at voluptate voluptas in exercitationem ex dolor neque nesciunt atque quasi rerum, adipisci
+              ad.</p>
+            <ul class="redes">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitch"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+              <li><a href="#"><i class="fa fa-google"></i></a></li>
+            </ul>
+
+          </div>
+          <div class="footer-botones">
+            <p>Copyright &copy;2021 Canales Corp. Diseñado por <span>Cristian</span></p>
+          </div>
+        </footer>
 
 
+      </div>
 
-
-
-    </div>
-
-    <footer class="tm-footer text-center">
-        <p>Copyright &copy; 2021  Cristian 
-        
-        | Design: <a rel="nofollow" href="https://Google.com">Google</a></p>
-    </footer>
-</div>
-<script src="/Cristian/Js/jquery.min.js"></script>
-<script src="/Cristian/Js/parallax.min.js"></script>
-<script>
-    $(document).ready(function(){
-        // Handle click on paging links
-        $('.tm-paging-link').click(function(e){
+      <script src="/Cristian/Js/jquery.min.js"></script>
+      <script src="/Cristian/Js/parallax.min.js"></script>
+      <script>
+        $(document).ready(function () {
+          // Handle click on paging links
+          $('.tm-paging-link').click(function (e) {
             e.preventDefault();
-            
+
             var page = $(this).text().toLowerCase();
             $('.tm-gallery-page').addClass('hidden');
             $('#tm-gallery-page-' + page).removeClass('hidden');
             $('.tm-paging-link').removeClass('active');
             $(this).addClass("active");
+          });
         });
-    });
-</script>
-  </body>
+      </script>
+</body>
+
 </html>
